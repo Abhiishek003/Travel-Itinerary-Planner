@@ -8,14 +8,19 @@ The Trip Planner Website is a web application designed to assist users in planni
 Node.js and npm installed
 # Installation
 Clone the repository:
-git clone https://github.com/hrshrayank/trip-planner-website.git
+git clone https://github.com/Abhiishek003/Travel-Itinerary-Planner
 # Install dependencies:
 npm install
 Create a .env file in the root directory and add the following variables:
+
 VITE_GOOGLE_PLACE_API_KEY = '<your-google-place-api-key>'
+
 VITE_GOOGLE_GEMINI_API_KEY = '<your-google-gemini-api-key>'
+
 VITE_GOOGLE_AUTH_CLIENT_API_KEY = '<your-google-auth-client-api-key>'
+
 VITE_FIREBASE_AUTH_API_KEY = '<your-firebase-auth-api-key>'
+
 # Run the development server:
 npm run dev
 # Technologies Used
